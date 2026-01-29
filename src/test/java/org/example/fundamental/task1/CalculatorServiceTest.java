@@ -25,9 +25,9 @@ class CalculatorServiceTest {
 
     @Test
     void add_whenZeroNumber() {
-        // negative case
-        int negativeResult = calculatorService.add(10, 0);
-        assertEquals(10, negativeResult);
+
+        int sameResult = calculatorService.add(10, 0);
+        assertEquals(10, sameResult);
     }
 
 
